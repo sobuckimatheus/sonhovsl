@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sueño Blindado — Tu Primera Clase</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+    overflow-x: hidden;
+  }
+
+  /* TOP BAR VERMELHA */
+  .top-bar {
+    background: #d32f2f;
+    padding: 16px 20px;
+    text-align: center;
+  }
+
+  .top-bar p {
+    color: #ffffff;
+    font-size: clamp(13px, 2vw, 16px);
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+
+  /* MAIN CONTENT */
+  .main {
+    padding: 50px 20px 20px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .headline {
+    font-size: clamp(36px, 7vw, 72px);
+    font-weight: 900;
+    color: #111111;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  .headline-gold {
+    font-size: clamp(40px, 8vw, 80px);
+    font-weight: 900;
+    color: #f5a623;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    display: block;
+  }
+
+  .arrow-emoji {
+    font-size: clamp(48px, 8vw, 80px);
+    margin-bottom: 24px;
+    display: block;
+    animation: bounce 1.5s ease-in-out infinite;
+  }
+
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(12px); }
+  }
+
+  /* VIDEO */
+  .video-wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #111;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.25);
+  }
+
+  .video-wrapper iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/9;
+    border: none;
+  }
+</style>
+</head>
+<body>
+
+<!-- BARRA VERMELHA -->
+<div class="top-bar">
+  <p>⚠️ NO SALGAS DE ESTA PÁGINA — ESTAMOS CREANDO TU ACCESO.<br>
+  CERRARLA AHORA PODRÍA GENERAR ERRORES EN TU PEDIDO.</p>
+</div>
+
+<!-- CONTEÚDO -->
+<div class="main">
+  <h1 class="headline">¡Mira abajo tu</h1>
+  <span class="headline-gold">PRIMERA CLASE!</span>
+  <span class="arrow-emoji">👇</span>
+
+  <!-- VIDEO -->
+  <div class="video-wrapper">
+    <iframe
+      src="https://play.tynk.ai/p/551ab6bc-2374-41eb-af3d-5880db5bce0d"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+</body>
+</html>
